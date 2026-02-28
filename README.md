@@ -117,6 +117,19 @@ results = index.query(vector=query_embedding, top_k=10, filter=[...])
 
 ---
 
+## Forked Endee Repository
+
+This project is built using a forked version of the Endee vector database.
+
+Forked repository:
+https://github.com/Janmejay07/endee
+
+The forked Endee repository serves as the base vector database implementation for semantic search, RAG retrieval, and recommendation workflows in this project.
+
+The system currently runs using the official Endee Docker image for stability, while the forked repository is maintained for customization and extension.
+
+---
+
 ## 🚀 Setup & Execution
 
 ### Prerequisites
@@ -125,7 +138,7 @@ results = index.query(vector=query_embedding, top_k=10, filter=[...])
 - [Docker](https://www.docker.com/) (for Endee)
 - [Ollama](https://ollama.ai/) (for local LLM)
 
-### 1. Fork Endee (Optional)
+### 1. Fork Endee (Required)
 
 Fork [endee-io/endee](https://github.com/endee-io/endee) to your account:
 
